@@ -1,0 +1,19 @@
+Prozessnummer,Prozessname,Prozessart,Merkmalsklasse 1,Merkmalsklasse 2,Merkmalsklasse 3,Randbedingung 1,Randbedingung 2,Verknüpfungen Prozessebene,Verknüpfungen Baukastenebene,Hinweise,Ablageort konstruktiv,Ablageort steuerungstechnisch,Ablageort prüftechnisch,Ablageort robotertechnisch
+100000,Etikett applizieren,Hauptprozess,Drucken,Korrigieren,Applizieren,Vollautomatisierung,Etikettgröße 50x30,100001 - 100006,Baukasten,,3040983,"TIA-Projekt: V:\BMB\Team\VORR\1040855 - FRED 3038260\ST\SPS (TIA)\FRED
+Kamera: S:\D+S\Collaboration\Kamerapruefung\Programme etc\Job_Fred",,V:\BMB\Team\VORR\1040855 - FRED 3038260\ST\KUKA
+,,,,,,,,,,,,V:\BMB\Team\ST\TIA Bibliotheken\V18\ST_Favoriten_V18,,V:\BMB\Team\ST\KUKA\Fkt_Bibliotheken
+100001,Etikett drucken und bereitstellen,Teilprozess,Drucken,Bereitstellen,-,,,100000,Baukasten,Nice-Label -> Datenbank,3040988,,,
+100002,Etikett aufnehmen und manipulieren,Teilprozess,Manipulieren,Greifen,-,,,100000,Baukasten,I/O-s beachten siehe Checkliste,3040634,,,V:\BMB\Team\VORR\1040855 - FRED 3038260\ST\KUKA
+100003,Versatz ermitteln,Teilprozess,Kontrollieren,Erkennen,-,,,100000,,,3040795,,,
+100004,Position korrigieren,Teilprozess,Korrigieren,-,-,,,100000,,,3040795,,,V:\BMB\Team\VORR\1040855 - FRED 3038260\ST\KUKA
+100005,Etikett applizieren,Teilprozess,Greifen,Applizieren,-,,,100000,,,3040634,,,V:\BMB\Team\VORR\1040855 - FRED 3038260\ST\KUKA
+100006,DMC-Code lesen,Teilprozess,Erkennen,Auswerten,-,,,,,,,,,
+100007,Steckteil zuführen,Hauptprozess,,,,,,,,,,,,
+100008,Bauteil prüfen,Hauptprozess,,,,,,,,,,,,
+100009,Kodierstift Kontrolle,Teilprozess,,,,,,,,,,,,
+100010,Trennbock Kontrolle,Teilprozess,,,,,,,,,,,,
+100011,Prüfung statisch,Hauptprozess,,,,,,,,,,,V:\BMB\Team\VORR\1040855 - FRED 3038260\PS,
+100012,Prüfung dynamisch,Hauptprozess,,,,,,,,,,,V:\BMB\Team\VORR\1040855 - FRED 3038260\PS,
+100013,Prüfung Isolation,Hauptprozess,,,,,,,,,,,V:\BMB\Team\VORR\1040855 - FRED 3038260\PS,
+100014,Prüfkennzeichen drucken,Hauptprozess,,,,,,,,,,,,
+100015,Palettieren,Hauptprozess,,,,,,,,,,,,
