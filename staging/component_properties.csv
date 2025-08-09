@@ -1,0 +1,154 @@
+component_id,property_name,unit,numeric_value,text_value,source
+ee73af30dff201c916452d9bda5700a2c2572c50,Load capacity [kg],kg,6.0,,building_blocks_cleaned.csv:2:property_1/value_1
+ee73af30dff201c916452d9bda5700a2c2572c50,Range [mm],mm,900.0,,building_blocks_cleaned.csv:2:property_2/value_2
+ee73af30dff201c916452d9bda5700a2c2572c50,Net weight [kg],kg,55.0,,building_blocks_cleaned.csv:2:property_3/value_3
+3f84497e6d2e2417a750dadfb5e4206cfe79cb3a,Load capacity [kg],kg,4.0,,building_blocks_cleaned.csv:3:property_1/value_1
+f0d2b66c4584840b318af39338c875d5685ed719,Length [m],m,10.0,,building_blocks_cleaned.csv:4:property_1/value_1
+f578e91f80f7e425e53d310c7dc0c381e823df52,Length [m],m,5.0,,building_blocks_cleaned.csv:5:property_1/value_1
+5e9fc79a4437e4d285d83d13c9d455349a9a8973,protocol,,,PROFINET,building_blocks_cleaned.csv:6:property_1/value_1
+006be0540f2ada6ed248ce5714cc0d038a6c461e,contact person,,,KIH/DAA,building_blocks_cleaned.csv:9:property_1/value_1
+006be0540f2ada6ed248ce5714cc0d038a6c461e,software,,,WorkVisual,building_blocks_cleaned.csv:9:property_2/value_2
+e7479e701b0014d46b50dfdd9b74ac2501e6d17c,contact person,,,KIH/DAA,building_blocks_cleaned.csv:10:property_1/value_1
+4027260d82bf71b2f48e2b29de367600f702712b,contact person,,,KIH/THP/NBR/...,building_blocks_cleaned.csv:11:property_1/value_1
+4027260d82bf71b2f48e2b29de367600f702712b,version,,,V18 Update 3,building_blocks_cleaned.csv:11:property_2/value_2
+4027260d82bf71b2f48e2b29de367600f702712b,Library compliance,,,Yes,building_blocks_cleaned.csv:11:property_3/value_3
+1515ff67f1f69a9e882191183df7be3c60c4c8c6,contact person,,,KIH/THP/NBR/...,building_blocks_cleaned.csv:12:property_1/value_1
+1515ff67f1f69a9e882191183df7be3c60c4c8c6,version,,,V18 Update 3,building_blocks_cleaned.csv:12:property_2/value_2
+1515ff67f1f69a9e882191183df7be3c60c4c8c6,Library compliance,,,Yes,building_blocks_cleaned.csv:12:property_3/value_3
+6dd2489b9744a937c672c15d9adab22156120ab7,contact person,,,KIH/THP/NBR/...,building_blocks_cleaned.csv:13:property_1/value_1
+6dd2489b9744a937c672c15d9adab22156120ab7,version,,,V18 Update 3,building_blocks_cleaned.csv:13:property_2/value_2
+6dd2489b9744a937c672c15d9adab22156120ab7,Library compliance,,,Yes,building_blocks_cleaned.csv:13:property_3/value_3
+1d648138c7be3dc39d2f32e7fe8fe60470cb6843,contact person,,,KIH/THP/NBR/...,building_blocks_cleaned.csv:14:property_1/value_1
+1d648138c7be3dc39d2f32e7fe8fe60470cb6843,version,,,V18 Update 3,building_blocks_cleaned.csv:14:property_2/value_2
+1d648138c7be3dc39d2f32e7fe8fe60470cb6843,Library compliance,,,Yes,building_blocks_cleaned.csv:14:property_3/value_3
+f9b6c05301d67baff27e80a961c81e36f46c48eb,contact person,,,KIH/HAC/NBR,building_blocks_cleaned.csv:15:property_1/value_1
+f9b6c05301d67baff27e80a961c81e36f46c48eb,version,,,2.8.2.1,building_blocks_cleaned.csv:15:property_2/value_2
+f9b6c05301d67baff27e80a961c81e36f46c48eb,Library compliance,,,Yes,building_blocks_cleaned.csv:15:property_3/value_3
+b8ae60e22d8ff8331c2bdaf8941de576af20681f,contact person,,,KIH/HAC/NBR,building_blocks_cleaned.csv:16:property_1/value_1
+b8ae60e22d8ff8331c2bdaf8941de576af20681f,version,,,2.8.2.1,building_blocks_cleaned.csv:16:property_2/value_2
+b8ae60e22d8ff8331c2bdaf8941de576af20681f,Library compliance,,,Yes,building_blocks_cleaned.csv:16:property_3/value_3
+de160ddd90e66d78a94fe719459f36abe616884b,contact person,,,KIH/HAC/NBR,building_blocks_cleaned.csv:17:property_1/value_1
+de160ddd90e66d78a94fe719459f36abe616884b,version,,,2.8.2.1,building_blocks_cleaned.csv:17:property_2/value_2
+de160ddd90e66d78a94fe719459f36abe616884b,Library compliance,,,Yes,building_blocks_cleaned.csv:17:property_3/value_3
+e3d3b97668506de6077fa453d4ce089e5a42326a,contact person,,,KIH/HAC/NBR,building_blocks_cleaned.csv:18:property_1/value_1
+e3d3b97668506de6077fa453d4ce089e5a42326a,version,,,2.8.2.1,building_blocks_cleaned.csv:18:property_2/value_2
+e3d3b97668506de6077fa453d4ce089e5a42326a,Library compliance,,,Yes,building_blocks_cleaned.csv:18:property_3/value_3
+a5642f6c6a5f09424f06c17f740f4306e45806e2,contact person,,,KIH/THP/NBR/...,building_blocks_cleaned.csv:19:property_1/value_1
+a5642f6c6a5f09424f06c17f740f4306e45806e2,version,,,V18 Update 3,building_blocks_cleaned.csv:19:property_2/value_2
+a5642f6c6a5f09424f06c17f740f4306e45806e2,Library compliance,,,No,building_blocks_cleaned.csv:19:property_3/value_3
+27a024821d56a81bd5efc553f42f2dec5f7e430d,contact person,,,KIH/THP/NBR/...,building_blocks_cleaned.csv:20:property_1/value_1
+27a024821d56a81bd5efc553f42f2dec5f7e430d,version,,,V18 Update 3,building_blocks_cleaned.csv:20:property_2/value_2
+27a024821d56a81bd5efc553f42f2dec5f7e430d,Library compliance,,,No,building_blocks_cleaned.csv:20:property_3/value_3
+cdfb24dd27c8ff48acd6ecd2affc7b7654211fe7,contact person,,,KIH/THP/NBR/...,building_blocks_cleaned.csv:21:property_1/value_1
+cdfb24dd27c8ff48acd6ecd2affc7b7654211fe7,version,,,V18 Update 3,building_blocks_cleaned.csv:21:property_2/value_2
+cdfb24dd27c8ff48acd6ecd2affc7b7654211fe7,Library compliance,,,No,building_blocks_cleaned.csv:21:property_3/value_3
+4ad802125d88aadebe4ce693e23a026b548bf5a3,contact person,,,KIH/DAA,building_blocks_cleaned.csv:22:property_1/value_1
+4ad802125d88aadebe4ce693e23a026b548bf5a3,software,,,WorkVisual,building_blocks_cleaned.csv:22:property_2/value_2
+b62d085355a2daf8c2b03e1a76da11450af44816,contact person,,,KIH/DAA,building_blocks_cleaned.csv:23:property_1/value_1
+b62d085355a2daf8c2b03e1a76da11450af44816,software,,,WorkVisual,building_blocks_cleaned.csv:23:property_2/value_2
+22c16b1d5efb7bd58e8283a03b94ba674fa418f2,contact person,,,KIH/DAA,building_blocks_cleaned.csv:24:property_1/value_1
+22c16b1d5efb7bd58e8283a03b94ba674fa418f2,software,,,WorkVisual,building_blocks_cleaned.csv:24:property_2/value_2
+0c1d23464c51e5336c27b0421966d58a5b9c2b03,contact person,,,KIH/DAA,building_blocks_cleaned.csv:25:property_1/value_1
+0c1d23464c51e5336c27b0421966d58a5b9c2b03,software,,,WorkVisual,building_blocks_cleaned.csv:25:property_2/value_2
+f9505086e9923f21d40f876cc86187a0689bd916,contact person,,,KIH/DAA,building_blocks_cleaned.csv:26:property_1/value_1
+f9505086e9923f21d40f876cc86187a0689bd916,software,,,WorkVisual,building_blocks_cleaned.csv:26:property_2/value_2
+d5979b38dd1d3be111c9d12861cffd2f4f77cee1,protocol,,,PROFINET,building_blocks_cleaned.csv:27:property_1/value_1
+d5979b38dd1d3be111c9d12861cffd2f4f77cee1,software,,,Siemens TIA Portal,building_blocks_cleaned.csv:27:property_2/value_2
+a07e07d82cff3922448bfda37ed3907107d88430,Scope,,,professional,building_blocks_cleaned.csv:28:property_1/value_1
+a07e07d82cff3922448bfda37ed3907107d88430,version,,,2.10.1.4,building_blocks_cleaned.csv:28:property_2/value_2
+a07e07d82cff3922448bfda37ed3907107d88430,Light color,,,White,building_blocks_cleaned.csv:28:property_3/value_3
+91c763b5d2582d7b48ed180890c7a26525bee472,contact person,,,ZEA/NBR,building_blocks_cleaned.csv:29:property_1/value_1
+91c763b5d2582d7b48ed180890c7a26525bee472,version,,,7200/7250,building_blocks_cleaned.csv:29:property_2/value_2
+c0904eae870810bc4498b5e56dbfeef01a7e145b,contact person,,,ZEA/NBR/LWA,building_blocks_cleaned.csv:30:property_1/value_1
+c0904eae870810bc4498b5e56dbfeef01a7e145b,Driver version,,,V10.5,building_blocks_cleaned.csv:30:property_2/value_2
+c0904eae870810bc4498b5e56dbfeef01a7e145b,Library compliance,,,Yes,building_blocks_cleaned.csv:30:property_3/value_3
+e6a703c1b9c0580aeb9bc0928f8b261f021638f4,contact person,,,NBR/JWA,building_blocks_cleaned.csv:31:property_1/value_1
+e6a703c1b9c0580aeb9bc0928f8b261f021638f4,version,,,V18 Update 3,building_blocks_cleaned.csv:31:property_2/value_2
+e6a703c1b9c0580aeb9bc0928f8b261f021638f4,Library compliance,,,Yes,building_blocks_cleaned.csv:31:property_3/value_3
+4521fa3b2789a39f46d748b44f9ace1b11580f6e,contact person,,,NBR/JWA,building_blocks_cleaned.csv:32:property_1/value_1
+4521fa3b2789a39f46d748b44f9ace1b11580f6e,version,,,V18 Update 3,building_blocks_cleaned.csv:32:property_2/value_2
+4521fa3b2789a39f46d748b44f9ace1b11580f6e,Library compliance,,,Yes,building_blocks_cleaned.csv:32:property_3/value_3
+7483c8c3b8f6e7c2de3b06e44ac4ae826f17cdac,contact person,,,NBR/JWA,building_blocks_cleaned.csv:33:property_1/value_1
+7483c8c3b8f6e7c2de3b06e44ac4ae826f17cdac,version,,,V18 Update 3,building_blocks_cleaned.csv:33:property_2/value_2
+7483c8c3b8f6e7c2de3b06e44ac4ae826f17cdac,Library compliance,,,Yes,building_blocks_cleaned.csv:33:property_3/value_3
+a79a91d1d860e6ab9fc3e0e437d1dfeade9905ad,contact person,,,NBR/JWA,building_blocks_cleaned.csv:34:property_1/value_1
+a79a91d1d860e6ab9fc3e0e437d1dfeade9905ad,version,,,V18 Update 3,building_blocks_cleaned.csv:34:property_2/value_2
+a79a91d1d860e6ab9fc3e0e437d1dfeade9905ad,Library compliance,,,Yes,building_blocks_cleaned.csv:34:property_3/value_3
+7949e02a1fef7167efff843d213e9d11d620368d,contact person,,,NBR/JWA,building_blocks_cleaned.csv:35:property_1/value_1
+7949e02a1fef7167efff843d213e9d11d620368d,version,,,V18 Update 3,building_blocks_cleaned.csv:35:property_2/value_2
+7949e02a1fef7167efff843d213e9d11d620368d,Library compliance,,,Yes,building_blocks_cleaned.csv:35:property_3/value_3
+75007b0440e7e1e527ebda6fa599446af6cf4708,contact person,,,NBR/JWA,building_blocks_cleaned.csv:36:property_1/value_1
+75007b0440e7e1e527ebda6fa599446af6cf4708,version,,,V18 Update 3,building_blocks_cleaned.csv:36:property_2/value_2
+75007b0440e7e1e527ebda6fa599446af6cf4708,Library compliance,,,Yes,building_blocks_cleaned.csv:36:property_3/value_3
+5f7c1c70f97ae4181a8f18246609117c77968018,contact person,,,NBR/JWA,building_blocks_cleaned.csv:37:property_1/value_1
+5f7c1c70f97ae4181a8f18246609117c77968018,version,,,V18 Update 3,building_blocks_cleaned.csv:37:property_2/value_2
+5f7c1c70f97ae4181a8f18246609117c77968018,Library compliance,,,Yes,building_blocks_cleaned.csv:37:property_3/value_3
+390e1224d2e93ecc56af5f9f5ee81792f77b5f90,contact person,,,DEHN PT,building_blocks_cleaned.csv:38:property_1/value_1
+60dc4f943aa4af79c2f8478452b3fc2c89731657,contact person,,,DEHN PT,building_blocks_cleaned.csv:39:property_1/value_1
+932800a7775a0833febf45cfed20afa67f2e01b6,contact person,,,AW/JWA,building_blocks_cleaned.csv:40:property_1/value_1
+8529f9ac3b6b548bb044bc772b1df682d8c3bf4e,contact person,,,AW/JWA,building_blocks_cleaned.csv:41:property_1/value_1
+3e440e8d9f97da516c14cdfc1a4b4a34516ba98e,contact person,,,AW/JWA,building_blocks_cleaned.csv:42:property_1/value_1
+354c24ec54c86c5a467dc86167d98e599733173f,Load capacity [kg],kg,12.5,,building_blocks_cleaned.csv:43:property_1/value_1
+354c24ec54c86c5a467dc86167d98e599733173f,Range [mm],mm,1300.0,,building_blocks_cleaned.csv:43:property_2/value_2
+354c24ec54c86c5a467dc86167d98e599733173f,Net weight [kg],kg,33.5,,building_blocks_cleaned.csv:43:property_3/value_3
+d0b5c456cd40859981ea336b1ad5d188bcefa620,Scope,,,professional,building_blocks_cleaned.csv:44:property_1/value_1
+d0b5c456cd40859981ea336b1ad5d188bcefa620,resolution,,,V20,building_blocks_cleaned.csv:44:property_2/value_2
+d0b5c456cd40859981ea336b1ad5d188bcefa620,Light color,,,White,building_blocks_cleaned.csv:44:property_3/value_3
+55dcd0f456f7418b413d2e2efce0a7c12a32686c,protocol,,,PROFINET,building_blocks_cleaned.csv:45:property_1/value_1
+e3108b3be3992552bb180a4f45f22e8d6eb29911,contact person,,,REZ,building_blocks_cleaned.csv:46:property_1/value_1
+14ee70fa3b4dfc3e55a00fa7f79a8eaafb8019a8,contact person,,,REZ,building_blocks_cleaned.csv:47:property_1/value_1
+474e4b87d3d0bb7ea9f340a259a606ddf87230a1,contact person,,,REZ,building_blocks_cleaned.csv:48:property_1/value_1
+f429f7246144301473583165a5929dbbc7e8bf0e,contact person,,,REZ,building_blocks_cleaned.csv:49:property_1/value_1
+790c956aaa99a342261bef2f3a7aa1baee63aa98,contact person,,,REZ,building_blocks_cleaned.csv:50:property_1/value_1
+7a447d7f31176c2dbb431d3ce465cefe6cad34d6,contact person,,,REZ,building_blocks_cleaned.csv:51:property_1/value_1
+9881315bd958a0b36618dfbb67ee9fd5143c3167,contact person,,,REZ,building_blocks_cleaned.csv:52:property_1/value_1
+4edf3db6658a5cb259747eaa4307f60cbcd04ba1,contact person,,,KIH,building_blocks_cleaned.csv:53:property_1/value_1
+63d96a453cff7db8cc5442dc63ce0d9c77b90bac,contact person,,,THP,building_blocks_cleaned.csv:54:property_1/value_1
+63d96a453cff7db8cc5442dc63ce0d9c77b90bac,version,,,V18 Update 3,building_blocks_cleaned.csv:54:property_2/value_2
+63d96a453cff7db8cc5442dc63ce0d9c77b90bac,Library compliance,,,Yes,building_blocks_cleaned.csv:54:property_3/value_3
+496fc5c4447fa3813d35b8b8f6b7fed45e49d4c4,contact person,,,THP,building_blocks_cleaned.csv:55:property_1/value_1
+496fc5c4447fa3813d35b8b8f6b7fed45e49d4c4,version,,,V18 Update 3,building_blocks_cleaned.csv:55:property_2/value_2
+496fc5c4447fa3813d35b8b8f6b7fed45e49d4c4,Library compliance,,,Yes,building_blocks_cleaned.csv:55:property_3/value_3
+ad74f63ba2869951569f7dce1531a64b278e8543,contact person,,,THP,building_blocks_cleaned.csv:56:property_1/value_1
+ad74f63ba2869951569f7dce1531a64b278e8543,version,,,V18 Update 3,building_blocks_cleaned.csv:56:property_2/value_2
+ad74f63ba2869951569f7dce1531a64b278e8543,Library compliance,,,Yes,building_blocks_cleaned.csv:56:property_3/value_3
+f85a09ad76bb83a2f15bd59854e2e37381dc25ee,contact person,,,THP,building_blocks_cleaned.csv:57:property_1/value_1
+f85a09ad76bb83a2f15bd59854e2e37381dc25ee,version,,,V18 Update 3,building_blocks_cleaned.csv:57:property_2/value_2
+f85a09ad76bb83a2f15bd59854e2e37381dc25ee,Library compliance,,,Yes,building_blocks_cleaned.csv:57:property_3/value_3
+356317a9b2ae75b8e0176d16f6385cc80b8eb967,contact person,,,THP,building_blocks_cleaned.csv:58:property_1/value_1
+356317a9b2ae75b8e0176d16f6385cc80b8eb967,version,,,V18 Update 3,building_blocks_cleaned.csv:58:property_2/value_2
+356317a9b2ae75b8e0176d16f6385cc80b8eb967,Library compliance,,,Yes,building_blocks_cleaned.csv:58:property_3/value_3
+4190bb97b33bd943bee62609dda3d6a001437408,contact person,,,THP,building_blocks_cleaned.csv:59:property_1/value_1
+4190bb97b33bd943bee62609dda3d6a001437408,version,,,V18 Update 3,building_blocks_cleaned.csv:59:property_2/value_2
+4190bb97b33bd943bee62609dda3d6a001437408,Library compliance,,,Yes,building_blocks_cleaned.csv:59:property_3/value_3
+3a9b24dde1cbd0bf98911c6fe46c1709132b5b1c,contact person,,,THP,building_blocks_cleaned.csv:60:property_1/value_1
+3a9b24dde1cbd0bf98911c6fe46c1709132b5b1c,version,,,V18 Update 3,building_blocks_cleaned.csv:60:property_2/value_2
+3a9b24dde1cbd0bf98911c6fe46c1709132b5b1c,Library compliance,,,Yes,building_blocks_cleaned.csv:60:property_3/value_3
+c4977f31949d2fb55d30d2441015e67cf2f2be67,contact person,,,THP,building_blocks_cleaned.csv:61:property_1/value_1
+c4977f31949d2fb55d30d2441015e67cf2f2be67,version,,,V18 Update 3,building_blocks_cleaned.csv:61:property_2/value_2
+c4977f31949d2fb55d30d2441015e67cf2f2be67,Library compliance,,,Yes,building_blocks_cleaned.csv:61:property_3/value_3
+5de395c32bcdb1525154a5028f6d9e69b7c72b8e,contact person,,,THP,building_blocks_cleaned.csv:62:property_1/value_1
+5de395c32bcdb1525154a5028f6d9e69b7c72b8e,version,,,V18 Update 3,building_blocks_cleaned.csv:62:property_2/value_2
+5de395c32bcdb1525154a5028f6d9e69b7c72b8e,Library compliance,,,Yes,building_blocks_cleaned.csv:62:property_3/value_3
+0a2b6795d4be2582f483c82419b91665eed09e18,contact person,,,THP,building_blocks_cleaned.csv:63:property_1/value_1
+0a2b6795d4be2582f483c82419b91665eed09e18,version,,,V18 Update 3,building_blocks_cleaned.csv:63:property_2/value_2
+0a2b6795d4be2582f483c82419b91665eed09e18,Library compliance,,,Yes,building_blocks_cleaned.csv:63:property_3/value_3
+8b8553c65d2fc7e5bcde12252aa3bd031e1a0a96,protocol,,,IO-LINK,building_blocks_cleaned.csv:64:property_1/value_1
+31a63cce6d29ea11ecad8f8ebc75f5e5c7e82f68,reach,,,0.03-1.5 m,building_blocks_cleaned.csv:65:property_1/value_1
+31a63cce6d29ea11ecad8f8ebc75f5e5c7e82f68,Connection,,,"M12x1, X-pin, A-coded",building_blocks_cleaned.csv:65:property_2/value_2
+31a63cce6d29ea11ecad8f8ebc75f5e5c7e82f68,Light type,,,red light,building_blocks_cleaned.csv:65:property_3/value_3
+0ed69b0570f465b091cf7ba807461496c493850d,Position,,,Horizontal,building_blocks_cleaned.csv:66:property_1/value_1
+0ed69b0570f465b091cf7ba807461496c493850d,Orientation,,,Standing,building_blocks_cleaned.csv:66:property_2/value_2
+4b7308aeb493bbd69c9a0f035a371e8213490841,Type,,,Vacuum generator,building_blocks_cleaned.csv:67:property_1/value_1
+4b7308aeb493bbd69c9a0f035a371e8213490841,Fastening,,,To robots,building_blocks_cleaned.csv:67:property_2/value_2
+e28e29c6fcc5d2e2fcd3201049139b2f0a6ce27d,workpiece,,,labels,building_blocks_cleaned.csv:68:property_1/value_1
+e28e29c6fcc5d2e2fcd3201049139b2f0a6ce27d,Robot type,,,KUKA KR 4 R600,building_blocks_cleaned.csv:68:property_2/value_2
+e28e29c6fcc5d2e2fcd3201049139b2f0a6ce27d,Additional function,,,pressure brush,building_blocks_cleaned.csv:68:property_3/value_3
+0711ea8e0557132ea2df3a14396d735e09d615d6,Position,,,Vertical,building_blocks_cleaned.csv:69:property_1/value_1
+0711ea8e0557132ea2df3a14396d735e09d615d6,Orientation,,,Standing,building_blocks_cleaned.csv:69:property_2/value_2
+07380a3482220dcea96d20b5c723f5f7db69cba7,contact person,,,NBR,building_blocks_cleaned.csv:70:property_1/value_1
+07380a3482220dcea96d20b5c723f5f7db69cba7,version,,,V18 Update 3,building_blocks_cleaned.csv:70:property_2/value_2
+07380a3482220dcea96d20b5c723f5f7db69cba7,Library compliance,,,Yes,building_blocks_cleaned.csv:70:property_3/value_3
+2fee0f2d401e81b2e70bdc9e0b56a562bc908f4a,contact person,,,ST,building_blocks_cleaned.csv:71:property_1/value_1
+2fee0f2d401e81b2e70bdc9e0b56a562bc908f4a,version,,,V18 Update 3,building_blocks_cleaned.csv:71:property_2/value_2
+2fee0f2d401e81b2e70bdc9e0b56a562bc908f4a,Library compliance,,,Yes,building_blocks_cleaned.csv:71:property_3/value_3
