@@ -20,6 +20,11 @@ SET s.dataset = 'equipment_solution_v2',
     s.`Ablageort prüftechnisch` = r.`Ablageort prüftechnisch`,
     s.`Ablageort robotertechnisch` = r.`Ablageort robotertechnisch`;
 
+// Assign sublabels for styling and drop generic label
+MATCH (s:SolutionV2 {dataset:'equipment_solution_v2'}) WHERE s.type='Hauptprozess' SET s:MainSolutionV2;
+MATCH (s:SolutionV2 {dataset:'equipment_solution_v2'}) WHERE s.type<>'Hauptprozess' SET s:PartialSolutionV2;
+MATCH (s:SolutionV2 {dataset:'equipment_solution_v2'}) REMOVE s:SolutionV2;
+
 // Modules
 LOAD CSV WITH HEADERS FROM 'https://raw.githubusercontent.com/rishabh1815769/dehn-equipment-challenge/feature/add-equipment-categories/euipment_version_2/modules.csv' AS r
 WITH r WHERE r.`Lfd. Nummer` IS NOT NULL AND r.`Lfd. Nummer` <> ''
