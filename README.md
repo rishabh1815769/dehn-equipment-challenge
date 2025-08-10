@@ -48,6 +48,11 @@ LIMIT 2000;
   - Rapid onboarding for team members.
   - Consistent, grounded answers tied to the current repo state and graph schema.
 
+    ![WhatsApp Image 2025-08-10 at 11 18 59](https://github.com/user-attachments/assets/c07fcf90-17ca-4b4b-b246-4ab664438264)
+
+![WhatsApp Image 2025-08-10 at 11 29 29](https://github.com/user-attachments/assets/bbd9fecd-e7c2-45e5-a0e5-f674d3b32d24)
+
+
 ### Data model and tables (authoritative vs. derived)
 
 - Core (authoritative, persisted in Postgres; drive the graph)
