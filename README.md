@@ -32,3 +32,18 @@ LIMIT 2000;
 ```
 
 <img width="1264" height="538" alt="Screenshot 2025-08-10 at 11 16 58" src="https://github.com/user-attachments/assets/707c3545-080a-46cc-b69c-9c8dcf399d35" />
+
+### AI-assisted search and data understanding (hackathon add-on)
+- Built a lightweight custom UI on top of OpenSearch (Enterprise Search) to index our CSVs, notes, and generated artifacts.
+- Implemented context learning via retrieval-augmented prompting: the UI retrieves relevant snippets (schema, examples, mappings) and injects them into prompts to Gemini, so answers are grounded in our data.
+- Prompt engineering highlights:
+  - System primer with our domain vocabulary (MAIN/PARTIAL, HAS_PART, USES_MODULE) and CSV headers.
+  - Few-shot templates for Cypher generation and data QA.
+  - Guardrails to prefer factual, source-cited outputs.
+- Outcomes:
+  - Natural-language Q&A about solutions/modules and their relationships.
+  - One-click generation of Cypher queries for Browser.
+  - Faster validation loops (e.g., “show MAINs with children and their modules”, “find CPU modules”).
+- Why it helped in a hackathon:
+  - Rapid onboarding for team members.
+  - Consistent, grounded answers tied to the current repo state and graph schema.
