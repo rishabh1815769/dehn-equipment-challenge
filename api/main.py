@@ -67,6 +67,34 @@ def create_solution(payload: SolutionIn):
     return {"ok": True}
 
 
+@app.get("/solutions/{sid}")
+def get_solution(sid: int):
+    with SessionLocal() as db:
+        row = db.execute(select(Solution).where(Solution.id == sid)).scalar_one_or_none()
+        if not row:
+            raise HTTPException(status_code=404, detail="Solution not found")
+        return {
+            k: getattr(row, k)
+            for k in [
+                "id",
+                "name",
+                "type",
+                "merkmalsklasse_1",
+                "merkmalsklasse_2",
+                "merkmalsklasse_3",
+                "randbedingung_1",
+                "randbedingung_2",
+            ]
+        }
+
+
+@app.get("/solutions")
+def list_solutions(limit: int = 100, offset: int = 0):
+    with SessionLocal() as db:
+        rows = db.execute(select(Solution).offset(offset).limit(limit)).scalars().all()
+        return [{"id": r.id, "name": r.name, "type": r.type} for r in rows]
+
+
 @app.patch("/solutions/{sid}")
 def update_solution(sid: int, payload: SolutionIn):
     with SessionLocal() as db:
@@ -89,6 +117,22 @@ def create_module(payload: ModuleIn):
             raise HTTPException(status_code=400, detail=str(e.orig))
     upsert_modules([(payload.id, payload.name, payload.typ or "", payload.hersteller or "")])
     return {"ok": True}
+
+
+@app.get("/modules/{mid}")
+def get_module(mid: int):
+    with SessionLocal() as db:
+        row = db.execute(select(Module).where(Module.id == mid)).scalar_one_or_none()
+        if not row:
+            raise HTTPException(status_code=404, detail="Module not found")
+        return {"id": row.id, "name": row.name, "typ": row.typ, "hersteller": row.hersteller}
+
+
+@app.get("/modules")
+def list_modules(limit: int = 100, offset: int = 0):
+    with SessionLocal() as db:
+        rows = db.execute(select(Module).offset(offset).limit(limit)).scalars().all()
+        return [{"id": r.id, "name": r.name, "typ": r.typ} for r in rows]
 
 
 @app.put("/solutions/{sid}/parts")
@@ -133,6 +177,57 @@ def upsert_bom(sid: int, links: List[BomLinkIn]):
             eff.extend(result)
     for s, m, q, r in eff:
         sync_effective_bom(s, [(s, m, q, r)])
+    return {"ok": True}
+
+
+@app.delete("/solutions/{sid}")
+def delete_solution(sid: int, hard: bool = False):
+    with SessionLocal() as db:
+        if hard:
+            db.execute(delete(Solution).where(Solution.id == sid))
+        else:
+            db.execute(update(Solution).where(Solution.id == sid).values(deleted_at=func.now()))
+        db.commit()
+    return {"ok": True}
+
+
+@app.delete("/modules/{mid}")
+def delete_module(mid: int, hard: bool = False):
+    with SessionLocal() as db:
+        if hard:
+            db.execute(delete(Module).where(Module.id == mid))
+        else:
+            db.execute(update(Module).where(Module.id == mid).values(deleted_at=func.now()))
+        db.commit()
+    return {"ok": True}
+
+
+@app.delete("/solutions/{sid}/parts/{child_id}")
+def delete_part(sid: int, child_id: int):
+    with SessionLocal() as db:
+        db.execute(
+            delete(SolutionPart)
+            .where(SolutionPart.parent_solution_id == sid)
+            .where(SolutionPart.child_solution_id == child_id)
+        )
+        db.commit()
+    # Graph detach for HAS_PART could be added here with a follow-up sync
+    return {"ok": True}
+
+
+@app.delete("/solutions/{sid}/modules/{mid}")
+def delete_bom(sid: int, mid: int, role: Optional[str] = None):
+    with SessionLocal() as db:
+        stmt = (
+            delete(SolutionModule)
+            .where(SolutionModule.solution_id == sid)
+            .where(SolutionModule.module_id == mid)
+        )
+        if role is not None:
+            stmt = stmt.where(SolutionModule.role == role)
+        db.execute(stmt)
+        db.commit()
+    # A subsequent effective sync will remove the edge in Neo4j
     return {"ok": True}
 
 

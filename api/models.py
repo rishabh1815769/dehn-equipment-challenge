@@ -11,7 +11,7 @@ class Solution(Base):
     type = Column(Text, nullable=False)  # 'Hauptprozess' | 'Teilprozess'
 
     merkmalsklasse_1 = Column(Text)
-    merkmalsclasse_2 = Column("merkmalsklasse_2", Text)
+    merkmalsklasse_2 = Column(Text)
     merkmalsklasse_3 = Column(Text)
 
     randbedingung_1 = Column(Text)
