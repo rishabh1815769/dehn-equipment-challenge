@@ -186,12 +186,20 @@ Allow engineers to edit the authoritative SQL tables via REST. Each write update
 ### Endpoints
 - Solutions
   - POST `/solutions` (create)
+  - GET `/solutions/{id}` (read one)
+  - GET `/solutions` (list)
   - PATCH `/solutions/{id}` (update)
+  - DELETE `/solutions/{id}?hard=false` (soft or hard delete)
 - Modules
   - POST `/modules` (create)
+  - GET `/modules/{id}` (read one)
+  - GET `/modules` (list)
+  - DELETE `/modules/{id}?hard=false` (soft or hard delete)
 - Relations
   - PUT `/solutions/{id}/parts` (upsert HAS_PART links)
+  - DELETE `/solutions/{id}/parts/{childId}` (delete one HAS_PART link)
   - PUT `/solutions/{id}/modules` (upsert BOM links)
+  - DELETE `/solutions/{id}/modules/{moduleId}?role=...` (delete one BOM link)
 
 ### Write semantics
 - Validation: solution `type ∈ {Hauptprozess, Teilprozess}`, non-empty `name`; module `name` required.
