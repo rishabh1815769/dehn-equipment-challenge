@@ -1,0 +1,71 @@
+component_category,manufacturer,type,component_names,property_1,value_1,property_2,value_2,property_3,value_3
+robot,KUKA,KR 6 R900-2,KR 6 R900-2,Load capacity [kg],6,Range [mm],900,Net weight [kg],55
+robot,KUKA,KR 4 R600,KR 4 R600,Load capacity [kg],4,Range [mm],,Net weight [kg],
+Robot equipment (KUKA),KUKA,SPP connection cable 10m,Connection cable KUKA - PLC 10m,Length [m],10,-,-,-,-
+Robot equipment (KUKA),KUKA,SPP connection cable 5m,Connection cable KUKA - PLC 10m,Length [m],5,-,-,-,-
+Robot software (KUKA),KUKA,KUKA.PRFINET -/S 6.0,PROFINET for KUKA,protocol,PROFINET,-,-,-,-
+Robot software (KUKA),KUKA,KUKA.GripperSpotTech 5.0,KUKA tool control,-,,-,-,-,-
+Robot equipment (KUKA),KUKA,,PLC-KUKA connection package,Length [m],,-,-,-,-
+Robot software (KUKA),DEHN - ST,cell_src,KUKA main program,contact person,KIH/DAA,software,WorkVisual,-,
+Robot documents (KUKA),DEHN - ST,Profinet I/O table,KUKA_EA_Fred 11 Pal_Rob,contact person,KIH/DAA,-,-,-,-
+PLC module (SIEMENS),DEHN - ST,FC Etik Kam DMC,PLC Bib - Evaluate DMC code,contact person,KIH/THP/NBR/...,version,V18 Update 3,Library compliance,Yes
+PLC module (SIEMENS),DEHN - ST,FC Etik Kam Etik,PLC Bib label type detection,contact person,KIH/THP/NBR/...,version,V18 Update 3,Library compliance,Yes
+PLC module (SIEMENS),DEHN - ST,FC Etik Kam Offset,SPS Bib - Offset for label,contact person,KIH/THP/NBR/...,version,V18 Update 3,Library compliance,Yes
+PLC module (SIEMENS),DEHN - ST,FC Etik Rob data exchange,PLC Bib - Labeling Rob Data Exchange,contact person,KIH/THP/NBR/...,version,V18 Update 3,Library compliance,Yes
+Job (SensoPart),DEHN - ST,Job label_move,Job Label Offset/Determine Offset,contact person,KIH/HAC/NBR,version,2.8.2.1,Library compliance,Yes
+Job (SensoPart),DEHN - ST,Job DMC_Code read,Read job DMC code,contact person,KIH/HAC/NBR,version,2.8.2.1,Library compliance,Yes
+Job (SensoPart),DEHN - ST,Job_LabelType,Detect job label type,contact person,KIH/HAC/NBR,version,2.8.2.1,Library compliance,Yes
+Job set (SensoPart),DEHN - ST,Apply job label,Apply label job set,contact person,KIH/HAC/NBR,version,2.8.2.1,Library compliance,Yes
+PLC module (SIEMENS),DEHN - ST,FB Etik Druck,SPS Bib - Print Process,contact person,KIH/THP/NBR/...,version,V18 Update 3,Library compliance,No
+PLC module (SIEMENS),DEHN - ST,FB Etik Kam,SPS Bib - Expiration Camera,contact person,KIH/THP/NBR/...,version,V18 Update 3,Library compliance,No
+PLC module (SIEMENS),DEHN - ST,"FB Etik Rob control, FB Etik Rob handshake, FB Etik Rob job_select",PLC Bib - Communication Robot,contact person,KIH/THP/NBR/...,version,V18 Update 3,Library compliance,No
+Robot program (KUKA),DEHN - ST,Editing programs(),Kuka Fkt - Production Plant,contact person,KIH/DAA,software,WorkVisual,-,-
+Robot program (KUKA),DEHN - ST,UP_Abhol_Topex(),Kuka Fkt - Pick up label (Topex),contact person,KIH/DAA,software,WorkVisual,-,-
+Robot program (KUKA),DEHN - ST,UP_Einleg_DT(),Kuka Fkt - Align/apply label (Topex),contact person,KIH/DAA,software,WorkVisual,-,-
+Robot program (KUKA),DEHN - ST,UP_Brush(),Kuka Fkt - Brush on label (Topex),contact person,KIH/DAA,software,WorkVisual,-,-
+Robot program (KUKA),DEHN - ST,MoveHome(nHome:IN),Kuka Fkt - Automatic Home Travel,contact person,KIH/DAA,software,WorkVisual,-,-
+Hardware PLC,SIEMENS,CPU 1516-3 PN/DP,SIEMENS CPU,protocol,PROFINET,software,Siemens TIA Portal,-,-
+Vision sensors,SENSOPART,V 20 C Allround,SENSOPART camera,Scope,professional,version,2.10.1.4,Light color,White
+label printer,TOPEX,TOPEX 7200/7250 ZEBRA driver,TOPEX printer,contact person,ZEA/NBR,version,7200/7250,-,Yes
+NiceLabel,Loftware,SPS_TCP/IP_FRED,NL Config - SPS_TCP/IP_NiceLabel,contact person,ZEA/NBR/LWA,Driver version,V10.5,Library compliance,Yes
+PLC module (SIEMENS),DEHN-ST,FB PS_COM,PLC-Bib - communication block PS - PLC,contact person,NBR/JWA,version,V18 Update 3,Library compliance,Yes
+PLC data type (SIEMENS),DEHN-ST,type Read_Job,COM PS data type for read job,contact person,NBR/JWA,version,V18 Update 3,Library compliance,Yes
+PLC data type (SIEMENS),DEHN-ST,type Read Status_SPS,COM PS data type for PLC status,contact person,NBR/JWA,version,V18 Update 3,Library compliance,Yes
+PLC data type (SIEMENS),DEHN-ST,type Read_Test_Characteristics,COM PS data type for reading test characteristics,contact person,NBR/JWA,version,V18 Update 3,Library compliance,Yes
+PLC data type (SIEMENS),DEHN-ST,type Write_Status_PS,COM PS data type for status PS,contact person,NBR/JWA,version,V18 Update 3,Library compliance,Yes
+PLC data block (SIEMENS),DEHN - ST,DB Station_PS,COM PS data block,contact person,NBR/JWA,version,V18 Update 3,Library compliance,Yes
+PLC module (SIEMENS),DEHN - ST,FB Pruef_stat,Static test procedure,contact person,NBR/JWA,version,V18 Update 3,Library compliance,Yes
+Test system,DEHN - PT,Test system,Contacting test object,contact person,DEHN PT,,,,
+Test system,DEHN - PT,Test system,Hardware PS,contact person,DEHN PT,,,,
+Test system,DEHN - PT,Tester Control,"Compare PC DMC code, DMC reader type?",contact person,AW/JWA,software,,,
+Test system,DEHN - PT,Tester Control,PC payslip comparison,contact person,AW/JWA,software,,,
+Test system,DEHN - PT,Tester Control,PC overall assessment (DMC+characteristics),contact person,AW/JWA,software,,,
+robot,Universal Robots,UR10e,UR10e,Load capacity [kg],12.5,Range [mm],1300,Net weight [kg],33.5
+Vision sensors,SENSOPART,V20-RO-P3-W-N-M2-L,SENSOPART Robotic Camera,Scope,professional,resolution,V20,Light color,White
+interface,SIEMENS,PROFINET,PN interface PLC-UR,protocol,PROFINET,-,-,-,-
+Job (UR),DEHN - REZ,Job_13_Haube_absammeln,UR Job - Depalletizing,contact person,REZ,-,-,-,-
+Job (UR),DEHN - REZ,Job_21_vacuum_hoods_pickup,UR Job - Gripper pick-up/placement,contact person,REZ,-,-,-,-
+Job (UR),DEHN - REZ,Job_04_Get_a_full_box,UR Job - Crate Handling,contact person,REZ,-,-,-,-
+Job (UR),DEHN - REZ,Job_04_Get_a_full_box,UR Job - Component Storage,contact person,REZ,-,-,-,-
+Macro(UR),DEHN - REZ,Grab_With_Camera.script,UR Macro - Camera-guided component removal,contact person,REZ,-,-,-,-
+Macro(UR),DEHN - REZ,Depalletizing.script,UR Macro - Depalletizing via interpolation,contact person,REZ,,-,,-
+Job (SensoPart),DEHN - REZ,Job 4TE_Haube,Sensopart Job - 4TE hood,contact person,REZ,-,-,-,-
+Hardware PLC,SIEMENS,CPU 1515-2 PN,SIEMENS CPU,contact person,KIH,-,-,-,-
+PLC data type (SIEMENS),SIEMENS,type UR Output/Input Register,UR_5_T20_BitRegisters,contact person,THP,version,V18 Update 3,Library compliance,Yes
+PLC data type (SIEMENS),SIEMENS,type UR Output/Input Register,UR_6_T20_IntRegisters,contact person,THP,version,V18 Update 3,Library compliance,Yes
+PLC data block (SIEMENS),SIEMENS,DB Rob Info,DB Rob Info,contact person,THP,version,V18 Update 3,Library compliance,Yes
+PLC data block (SIEMENS),SIEMENS,DB Rob Inputs,DB Rob Inputs,contact person,THP,version,V18 Update 3,Library compliance,Yes
+PLC data block (SIEMENS),SIEMENS,DB Rob Outputs,DB Rob Outputs,contact person,THP,version,V18 Update 3,Library compliance,Yes
+PLC module (SIEMENS),SIEMENS,FC Rob Data Push,FC Rob Data Push,contact person,THP,version,V18 Update 3,Library compliance,Yes
+PLC module (SIEMENS),SIEMENS,Determine FB heights,Determine FB heights,contact person,THP,version,V18 Update 3,Library compliance,Yes
+PLC module (SIEMENS),SIEMENS,FB Rob control,FB Rob control,contact person,THP,version,V18 Update 3,Library compliance,Yes
+PLC module (SIEMENS),SIEMENS,FB Rob Handshake,FB Rob Handshake,contact person,THP,version,V18 Update 3,Library compliance,Yes
+PLC module (SIEMENS),SIEMENS,FB Rob Job ausw,FB Rob Job ausw,contact person,THP,version,V18 Update 3,Library compliance,Yes
+PLC module (SIEMENS),SIEMENS,FB Rob Job ausw,FB for pneumatic control,protocol,IO-LINK,,,,
+Optical sensor,IFM,OGD580,IFM distance sensor,reach,0.03-1.5 m,Connection,"M12x1, X-pin, A-coded",Light type,red light
+Mechanical connection,DEHN,For TOPEX 7200/7250,Topex printer mounting,Position,Horizontal,Orientation,Standing,,
+Pneumatic system,DEHN,Vacuum nozzle with mounting for KUKA KR4 on forearm,Vacuum generation robot,Type,Vacuum generator,Fastening,To robots,,
+Gripper/Suction cup,DEHN,Label vacuum cleaner DG,Label holder plus pressure brush,workpiece,labels,Robot type,KUKA KR 4 R600,Additional function,pressure brush
+Mechanical connection,DEHN,Sensopart V-series with dovetail mount,Camera recording,Position,Vertical,Orientation,Standing,,
+PLC module (SIEMENS),DEHN,FB NiceLabel,PLC Bib - Communication NiceLabel,contact person,NBR,version,V18 Update 3,Library compliance,Yes
+PLC module (SIEMENS),DEHN,IO_LINK_OGD580,IO-Link Config IFM distance sensor,contact person,ST,version,V18 Update 3,Library compliance,Yes

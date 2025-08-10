@@ -1,0 +1,104 @@
+solution_id,module_id,qty,role
+100000,200001,1,Etikett applizieren_1
+100001,200017,1,Etikett drucken und bereitstellen
+100002,200001,1,Etikett aufnehmen und manipulieren
+100003,200011,1,Versatz ermitteln
+100004,200001,1,Position korrigieren
+100005,200001,1,Etikett applizieren_2
+100006,200009,1,DMC-Code lesen
+100007,200025,1,Steckteil zuführen
+100008,200025,1,Bauteil prüfen
+100009,200025,1,Kodierstift Kontrolle
+100010,200025,1,Trennbock Kontrolle
+100011,200025,1,Prüfung statisch
+100012,200025,1,Prüfung dynamisch
+100013,200025,1,Prüfung Isolation
+100014,200025,1,Prüfkennzeichen drucken
+100015,200001,1,Palettieren
+100000,200009,1,Etikett applizieren_1
+100001,200025,1,Etikett drucken und bereitstellen
+100002,200012,1,Etikett aufnehmen und manipulieren
+100003,200013,1,Versatz ermitteln
+100004,200012,1,Position korrigieren
+100005,200012,1,Etikett applizieren_2
+100006,200014,1,DMC-Code lesen
+100007,200049,1,Steckteil zuführen
+100008,200029,1,Bauteil prüfen
+100011,200029,1,Prüfung statisch
+100012,200029,1,Prüfung dynamisch
+100013,200029,1,Prüfung Isolation
+100014,200042,1,Prüfkennzeichen drucken
+100015,200012,1,Palettieren
+100000,200010,1,Etikett applizieren_1
+100001,200027,1,Etikett drucken und bereitstellen
+100002,200019,1,Etikett aufnehmen und manipulieren
+100003,200018,1,Versatz ermitteln
+100004,200019,1,Position korrigieren
+100005,200016,1,Etikett applizieren_2
+100006,200018,1,DMC-Code lesen
+100007,200056,1,Steckteil zuführen
+100008,200039,1,Bauteil prüfen
+100011,200035,1,Prüfung statisch
+100012,200039,1,Prüfung dynamisch
+100013,200039,1,Prüfung Isolation
+100014,200043,1,Prüfkennzeichen drucken
+100015,200019,1,Palettieren
+100000,200011,1,Etikett applizieren_1
+100001,200028,1,Etikett drucken und bereitstellen
+100002,200021,1,Etikett aufnehmen und manipulieren
+100003,200025,1,Versatz ermitteln
+100004,200022,1,Position korrigieren
+100005,200019,1,Etikett applizieren_2
+100006,200025,1,DMC-Code lesen
+100007,200074,1,Steckteil zuführen
+100008,200040,1,Bauteil prüfen
+100011,200039,1,Prüfung statisch
+100012,200040,1,Prüfung dynamisch
+100013,200040,1,Prüfung Isolation
+100015,200025,1,Palettieren
+100000,200012,1,Etikett applizieren_1
+100001,200069,1,Etikett drucken und bereitstellen
+100002,200025,1,Etikett aufnehmen und manipulieren
+100003,200026,1,Versatz ermitteln
+100004,200025,1,Position korrigieren
+100005,200022,1,Etikett applizieren_2
+100006,200026,1,DMC-Code lesen
+100008,200041,1,Bauteil prüfen
+100011,200040,1,Prüfung statisch
+100012,200043,1,Prüfung dynamisch
+100013,200043,1,Prüfung Isolation
+100015,200056,1,Palettieren
+100000,200013,1,Etikett applizieren_1
+100001,200073,1,Etikett drucken und bereitstellen
+100002,200070,1,Etikett aufnehmen und manipulieren
+100003,200072,1,Versatz ermitteln
+100004,200070,1,Position korrigieren
+100005,200023,1,Etikett applizieren_2
+100006,200041,1,DMC-Code lesen
+100008,200042,1,Bauteil prüfen
+100011,200043,1,Prüfung statisch
+100000,200014,1,Etikett applizieren_1
+100002,200071,1,Etikett aufnehmen und manipulieren
+100004,200071,1,Position korrigieren
+100005,200025,1,Etikett applizieren_2
+100006,200072,1,DMC-Code lesen
+100008,200043,1,Bauteil prüfen
+100000,200015,1,Etikett applizieren_1
+100005,200070,1,Etikett applizieren_2
+100000,200016,1,Etikett applizieren_1
+100005,200071,1,Etikett applizieren_2
+100000,200017,1,Etikett applizieren_1
+100000,200018,1,Etikett applizieren_1
+100000,200019,1,Etikett applizieren_1
+100000,200021,1,Etikett applizieren_1
+100000,200022,1,Etikett applizieren_1
+100000,200023,1,Etikett applizieren_1
+100000,200025,1,Etikett applizieren_1
+100000,200026,1,Etikett applizieren_1
+100000,200027,1,Etikett applizieren_1
+100000,200028,1,Etikett applizieren_1
+100000,200069,1,Etikett applizieren_1
+100000,200070,1,Etikett applizieren_1
+100000,200071,1,Etikett applizieren_1
+100000,200072,1,Etikett applizieren_1
+100000,200073,1,Etikett applizieren_1

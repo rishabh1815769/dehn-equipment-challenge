@@ -1,0 +1,71 @@
+id,type,component_names
+ee73af30dff201c916452d9bda5700a2c2572c50,KR 6 R900-2,KR 6 R900-2
+3f84497e6d2e2417a750dadfb5e4206cfe79cb3a,KR 4 R600,KR 4 R600
+f0d2b66c4584840b318af39338c875d5685ed719,SPP connection cable 10m,Connection cable KUKA - PLC 10m
+f578e91f80f7e425e53d310c7dc0c381e823df52,SPP connection cable 5m,Connection cable KUKA - PLC 10m
+5e9fc79a4437e4d285d83d13c9d455349a9a8973,KUKA.PRFINET -/S 6.0,PROFINET for KUKA
+41aee465caa15f2fecb8928883de23570630c347,KUKA.GripperSpotTech 5.0,KUKA tool control
+29b30a56e165b36bd735675134834fc4de441fbe,,PLC-KUKA connection package
+006be0540f2ada6ed248ce5714cc0d038a6c461e,cell_src,KUKA main program
+e7479e701b0014d46b50dfdd9b74ac2501e6d17c,Profinet I/O table,KUKA_EA_Fred 11 Pal_Rob
+4027260d82bf71b2f48e2b29de367600f702712b,FC Etik Kam DMC,PLC Bib - Evaluate DMC code
+1515ff67f1f69a9e882191183df7be3c60c4c8c6,FC Etik Kam Etik,PLC Bib label type detection
+6dd2489b9744a937c672c15d9adab22156120ab7,FC Etik Kam Offset,SPS Bib - Offset for label
+1d648138c7be3dc39d2f32e7fe8fe60470cb6843,FC Etik Rob data exchange,PLC Bib - Labeling Rob Data Exchange
+f9b6c05301d67baff27e80a961c81e36f46c48eb,Job label_move,Job Label Offset/Determine Offset
+b8ae60e22d8ff8331c2bdaf8941de576af20681f,Job DMC_Code read,Read job DMC code
+de160ddd90e66d78a94fe719459f36abe616884b,Job_LabelType,Detect job label type
+e3d3b97668506de6077fa453d4ce089e5a42326a,Apply job label,Apply label job set
+a5642f6c6a5f09424f06c17f740f4306e45806e2,FB Etik Druck,SPS Bib - Print Process
+27a024821d56a81bd5efc553f42f2dec5f7e430d,FB Etik Kam,SPS Bib - Expiration Camera
+cdfb24dd27c8ff48acd6ecd2affc7b7654211fe7,"FB Etik Rob control, FB Etik Rob handshake, FB Etik Rob job_select",PLC Bib - Communication Robot
+4ad802125d88aadebe4ce693e23a026b548bf5a3,Editing programs(),Kuka Fkt - Production Plant
+b62d085355a2daf8c2b03e1a76da11450af44816,UP_Abhol_Topex(),Kuka Fkt - Pick up label (Topex)
+22c16b1d5efb7bd58e8283a03b94ba674fa418f2,UP_Einleg_DT(),Kuka Fkt - Align/apply label (Topex)
+0c1d23464c51e5336c27b0421966d58a5b9c2b03,UP_Brush(),Kuka Fkt - Brush on label (Topex)
+f9505086e9923f21d40f876cc86187a0689bd916,MoveHome(nHome:IN),Kuka Fkt - Automatic Home Travel
+d5979b38dd1d3be111c9d12861cffd2f4f77cee1,CPU 1516-3 PN/DP,SIEMENS CPU
+a07e07d82cff3922448bfda37ed3907107d88430,V 20 C Allround,SENSOPART camera
+91c763b5d2582d7b48ed180890c7a26525bee472,TOPEX 7200/7250 ZEBRA driver,TOPEX printer
+c0904eae870810bc4498b5e56dbfeef01a7e145b,SPS_TCP/IP_FRED,NL Config - SPS_TCP/IP_NiceLabel
+e6a703c1b9c0580aeb9bc0928f8b261f021638f4,FB PS_COM,PLC-Bib - communication block PS - PLC
+4521fa3b2789a39f46d748b44f9ace1b11580f6e,type Read_Job,COM PS data type for read job
+7483c8c3b8f6e7c2de3b06e44ac4ae826f17cdac,type Read Status_SPS,COM PS data type for PLC status
+a79a91d1d860e6ab9fc3e0e437d1dfeade9905ad,type Read_Test_Characteristics,COM PS data type for reading test characteristics
+7949e02a1fef7167efff843d213e9d11d620368d,type Write_Status_PS,COM PS data type for status PS
+75007b0440e7e1e527ebda6fa599446af6cf4708,DB Station_PS,COM PS data block
+5f7c1c70f97ae4181a8f18246609117c77968018,FB Pruef_stat,Static test procedure
+390e1224d2e93ecc56af5f9f5ee81792f77b5f90,Test system,Contacting test object
+60dc4f943aa4af79c2f8478452b3fc2c89731657,Test system,Hardware PS
+932800a7775a0833febf45cfed20afa67f2e01b6,Tester Control,"Compare PC DMC code, DMC reader type?"
+8529f9ac3b6b548bb044bc772b1df682d8c3bf4e,Tester Control,PC payslip comparison
+3e440e8d9f97da516c14cdfc1a4b4a34516ba98e,Tester Control,PC overall assessment (DMC+characteristics)
+354c24ec54c86c5a467dc86167d98e599733173f,UR10e,UR10e
+d0b5c456cd40859981ea336b1ad5d188bcefa620,V20-RO-P3-W-N-M2-L,SENSOPART Robotic Camera
+55dcd0f456f7418b413d2e2efce0a7c12a32686c,PROFINET,PN interface PLC-UR
+e3108b3be3992552bb180a4f45f22e8d6eb29911,Job_13_Haube_absammeln,UR Job - Depalletizing
+14ee70fa3b4dfc3e55a00fa7f79a8eaafb8019a8,Job_21_vacuum_hoods_pickup,UR Job - Gripper pick-up/placement
+474e4b87d3d0bb7ea9f340a259a606ddf87230a1,Job_04_Get_a_full_box,UR Job - Crate Handling
+f429f7246144301473583165a5929dbbc7e8bf0e,Job_04_Get_a_full_box,UR Job - Component Storage
+790c956aaa99a342261bef2f3a7aa1baee63aa98,Grab_With_Camera.script,UR Macro - Camera-guided component removal
+7a447d7f31176c2dbb431d3ce465cefe6cad34d6,Depalletizing.script,UR Macro - Depalletizing via interpolation
+9881315bd958a0b36618dfbb67ee9fd5143c3167,Job 4TE_Haube,Sensopart Job - 4TE hood
+4edf3db6658a5cb259747eaa4307f60cbcd04ba1,CPU 1515-2 PN,SIEMENS CPU
+63d96a453cff7db8cc5442dc63ce0d9c77b90bac,type UR Output/Input Register,UR_5_T20_BitRegisters
+496fc5c4447fa3813d35b8b8f6b7fed45e49d4c4,type UR Output/Input Register,UR_6_T20_IntRegisters
+ad74f63ba2869951569f7dce1531a64b278e8543,DB Rob Info,DB Rob Info
+f85a09ad76bb83a2f15bd59854e2e37381dc25ee,DB Rob Inputs,DB Rob Inputs
+356317a9b2ae75b8e0176d16f6385cc80b8eb967,DB Rob Outputs,DB Rob Outputs
+4190bb97b33bd943bee62609dda3d6a001437408,FC Rob Data Push,FC Rob Data Push
+3a9b24dde1cbd0bf98911c6fe46c1709132b5b1c,Determine FB heights,Determine FB heights
+c4977f31949d2fb55d30d2441015e67cf2f2be67,FB Rob control,FB Rob control
+5de395c32bcdb1525154a5028f6d9e69b7c72b8e,FB Rob Handshake,FB Rob Handshake
+0a2b6795d4be2582f483c82419b91665eed09e18,FB Rob Job ausw,FB Rob Job ausw
+8b8553c65d2fc7e5bcde12252aa3bd031e1a0a96,FB Rob Job ausw,FB for pneumatic control
+31a63cce6d29ea11ecad8f8ebc75f5e5c7e82f68,OGD580,IFM distance sensor
+0ed69b0570f465b091cf7ba807461496c493850d,For TOPEX 7200/7250,Topex printer mounting
+4b7308aeb493bbd69c9a0f035a371e8213490841,Vacuum nozzle with mounting for KUKA KR4 on forearm,Vacuum generation robot
+e28e29c6fcc5d2e2fcd3201049139b2f0a6ce27d,Label vacuum cleaner DG,Label holder plus pressure brush
+0711ea8e0557132ea2df3a14396d735e09d615d6,Sensopart V-series with dovetail mount,Camera recording
+07380a3482220dcea96d20b5c723f5f7db69cba7,FB NiceLabel,PLC Bib - Communication NiceLabel
+2fee0f2d401e81b2e70bdc9e0b56a562bc908f4a,IO_LINK_OGD580,IO-Link Config IFM distance sensor
