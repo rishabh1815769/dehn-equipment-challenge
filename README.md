@@ -21,16 +21,12 @@ Notes
 - The importer enforces: if a MAIN has children, modules attach to its PARTIALs; MAINs without children can have modules directly.
 - To import from local files, copy CSVs into Neo4j’s import folder and replace URLs with `file:///...`.
 
-### Example queries (paste in Browser)
-- Complete solutions graph (MAINs, PARTIALs, and modules)
+### Example query (paste in Browser)
 ```cypher
-MATCH p1=(m:MainSolutionV2)-[:HAS_PART*0..3]->(s:PartialSolutionV2)
-OPTIONAL MATCH p2=(s)-[:USES_MODULE]->(mod:ModuleV2)
-RETURN p1, p2 LIMIT 2000;
-```
-- Find CPU-related modules
-```cypher
-MATCH (mod:ModuleV2)
-WHERE toLower(mod.name) CONTAINS 'cpu' OR toLower(mod.typ) CONTAINS 'cpu'
-RETURN mod.name, mod.typ, mod.hersteller, mod.version LIMIT 25;
+MATCH (m:MainSolutionV2 {dataset:'equipment_solution_v2'})
+OPTIONAL MATCH p1=(m)-[:HAS_PART]->(ps:PartialSolutionV2)
+OPTIONAL MATCH p2=(ps)-[:USES_MODULE]->(mod1:ModuleV2 {dataset:'equipment_solution_v2'})
+OPTIONAL MATCH p3=(m)-[:USES_MODULE]->(mod2:ModuleV2 {dataset:'equipment_solution_v2'})
+RETURN m, p1, p2, p3
+LIMIT 2000;
 ```
