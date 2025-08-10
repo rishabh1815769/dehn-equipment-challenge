@@ -158,9 +158,73 @@ Operational notes
 - The hierarchy rule is enforced at two levels for defense-in-depth:
   1) SQL view `v_solution_modules_effective` for exports
   2) Neo4j import script filters USES_MODULE creation when a MAIN has children
- 
-    ![WhatsApp Image 2025-08-10 at 11 18 59](https://github.com/user-attachments/assets/46cfe152-ffae-4e1e-a362-a5c47d9d379e)
 
-    ![WhatsApp Image 2025-08-10 at 11 29 29](https://github.com/user-attachments/assets/97cf28c2-ac4d-4f60-857e-4664da04599c)
+## API and Sync (edit core tables → auto-update graph)
+
+### Purpose
+Allow engineers to edit the authoritative SQL tables via REST. Each write updates derived artifacts and synchronizes Neo4j so the Solutions Graph always reflects the latest state.
+
+### Components
+- REST API: FastAPI (see `api/`)
+- SQL access: SQLAlchemy → Cloud SQL (Postgres)
+- Graph sync: neo4j-driver (idempotent MERGEs/DELETEs)
+
+### Run locally (dev)
+1) Environment
+   - POSTGRES_DSN: postgresql+psycopg2://user:pass@host:5432/equipment_solution_v2?sslmode=require
+   - NEO4J_URI: bolt://host:7687, NEO4J_USER, NEO4J_PASSWORD
+2) Start API (uvicorn)
+   ```bash
+   uvicorn api.main:app --reload --port 8000
+   ```
+3) Open docs: http://localhost:8000/docs
+
+### Domain recap (core vs derived)
+- Core tables (authoritative): `solutions`, `modules`, `solution_parts`, `solution_modules`
+- Derived tables/artifacts: SQL VIEW `v_solution_modules_effective`; graph labels/edges `MainSolutionV2`, `PartialSolutionV2`, `ModuleV2`, `HAS_PART`, `USES_MODULE`
+
+### Endpoints
+- Solutions
+  - POST `/solutions` (create)
+  - PATCH `/solutions/{id}` (update)
+- Modules
+  - POST `/modules` (create)
+- Relations
+  - PUT `/solutions/{id}/parts` (upsert HAS_PART links)
+  - PUT `/solutions/{id}/modules` (upsert BOM links)
+
+### Write semantics
+- Validation: solution `type ∈ {Hauptprozess, Teilprozess}`, non-empty `name`; module `name` required.
+- Quantities must be > 0; roles optional.
+- Soft delete (via `deleted_at`) recommended for removals (future endpoint).
+
+### Sync flow (on every write)
+1) Upsert touched Solution/Module nodes in Neo4j with dataset tag and sublabels (`MainSolutionV2`/`PartialSolutionV2`).
+2) Upsert HAS_PART edges for submitted pairs.
+3) Compute effective BOM for affected solutions (SQL view logic) and MERGE required `USES_MODULE` edges; DELETE stale ones.
+4) Enforce hierarchy rule at graph level as a second guard.
+
+### Incremental vs full refresh
+- Incremental (default): only affected IDs are synced (fast).
+- Full refresh (admin): regenerate CSVs and run import scripts.
+
+### Minimal examples (curl)
+- Create a MAIN solution
+```bash
+curl -X POST http://localhost:8000/solutions \
+  -H 'Content-Type: application/json' \
+  -d '{"id":100016, "name":"Etikett applizieren", "type":"Hauptprozess"}'
+```
+- Attach PARTIAL and module
+```bash
+curl -X PUT http://localhost:8000/solutions/100016/parts \
+  -H 'Content-Type: application/json' \
+  -d '[{"parent_solution_id":100016, "child_solution_id":100005, "qty":1}]'
+
+curl -X PUT http://localhost:8000/solutions/100005/modules \
+  -H 'Content-Type: application/json' \
+  -d '[{"solution_id":100005, "module_id":200025, "qty":1, "role":"Etikett applizieren_1"}]'
+```
+Then re-run the Browser example query to see the updated tree.
 
 
