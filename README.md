@@ -30,3 +30,5 @@ OPTIONAL MATCH p3=(m)-[:USES_MODULE]->(mod2:ModuleV2 {dataset:'equipment_solutio
 RETURN m, p1, p2, p3
 LIMIT 2000;
 ```
+
+<img width="1264" height="538" alt="Screenshot 2025-08-10 at 11 16 58" src="https://github.com/user-attachments/assets/707c3545-080a-46cc-b69c-9c8dcf399d35" />
