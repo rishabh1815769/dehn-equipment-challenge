@@ -47,3 +47,9 @@ LIMIT 2000;
 - Why it helped in a hackathon:
   - Rapid onboarding for team members.
   - Consistent, grounded answers tied to the current repo state and graph schema.
+ 
+    ![WhatsApp Image 2025-08-10 at 11 18 59](https://github.com/user-attachments/assets/46cfe152-ffae-4e1e-a362-a5c47d9d379e)
+
+    ![WhatsApp Image 2025-08-10 at 11 29 29](https://github.com/user-attachments/assets/97cf28c2-ac4d-4f60-857e-4664da04599c)
+
+
